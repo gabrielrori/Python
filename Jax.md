@@ -39,3 +39,9 @@ CUDA 11 y CuDNN 8.0.5 o superior.
 ```sh
 pip3 install jax[cuda11_cudnn805] -f https://storage.googleapis.com/jax-releases/jax_releases.html
 ```
+
+### Instalar jaxlib con pip
+
+```sh
+pip3 install jaxlib
+```

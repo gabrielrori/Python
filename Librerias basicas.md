@@ -13,7 +13,9 @@ pip3 --version
 
 Instalar y actualizar Python 3
 
+```sh
 sudo dnf install python3
+```
 
 Actualizar pip
 

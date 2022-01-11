@@ -21,7 +21,7 @@ pip install --upgrade pip
 ```sh
 pip3 install --upgrade "jax[cuda]" -f https://storage.googleapis.com/jax-releases/jax_releases.html
 ```
-####Para una versión en particular
+#### Para una versión en particular
 
 Requisito previo: CUDA y CuDNN. CUDA 10 JAX requiere CuDNN 7, mientras CUDA 11 JAX requiere CuDNN 8. 
 ```sh

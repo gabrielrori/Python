@@ -13,7 +13,9 @@ pip3 install --upgrade pip
 pip3 install --upgrade "jax[cpu]"
 ```
 
-### Instalación de jax para procesamiento por GPU 
+### Instalación de jax para procesamiento por GPU
+
+Requisito previo: CUDA y CuDNN.
 
 ```sh
 pip install --upgrade pip
@@ -23,7 +25,7 @@ pip3 install --upgrade "jax[cuda]" -f https://storage.googleapis.com/jax-release
 ```
 #### Para una versión en particular
 
-Requisito previo: CUDA y CuDNN. CUDA 10 JAX requiere CuDNN 7, mientras CUDA 11 JAX requiere CuDNN 8. 
+CUDA 10 JAX requiere CuDNN 7, mientras CUDA 11 JAX requiere CuDNN 8. 
 
 ```sh
 pip install --upgrade pip

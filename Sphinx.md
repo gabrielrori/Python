@@ -14,7 +14,7 @@ sudo python3.8 -m pip install --user --upgrade myst-parser
 ```
 Instalar paquete para jupyter notebook
 ```sh
-sudo python3.8 -m pip install nbsphinx --user --upgrade --user
+sudo python3.8 -m pip install --user --upgrade nbsphinx
 ```
 ### Crear un documento
 ```sh

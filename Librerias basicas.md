@@ -38,6 +38,7 @@ sudo python3.8 -m pip install --upgrade setuptools
 Agregar carpeta de instalación al PATH de python
 ```sh
 export PYTHONPATH="${PYTHONPATH}:/usr/local/bin"
+```
 Instalar librerías de científicas de python3
 ```sh
 sudo python3.8 -m pip install numpy scipy matplotlib ipython jupyter pandas sympy nose

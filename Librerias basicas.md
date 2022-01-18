@@ -38,6 +38,9 @@ sudo python3.8 -m pip install --upgrade setuptools
 Agregar carpeta de instalación al PATH de python
 ```sh
 export PYTHONPATH="${PYTHONPATH}:/usr/local/bin"
+export PATH=/usr/local/bin:$PATH
+export PATH="/usr/local/bin:$PATH"
+export PATH="/gabrokcy/local/bin:$PATH"
 ```
 Instalar librerías de científicas de python3
 ```sh

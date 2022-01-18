@@ -11,10 +11,13 @@ pip3 --version
 
 ## Actualizar python 
 
-Instalar y actualizar Python 3
-
+Actualizar los paquetes y volver a cargar el repositorio
 ```sh
-sudo dnf install python3
+sudo dnf update -y 
+```
+Actualizar a Python 3.8
+```sh
+sudo dnf install python38
 ```
 
 Actualizar pip

@@ -34,10 +34,10 @@ pip3 install --upgrade pip
 Instalar y actualizar la librería de setuptools
 
 ```sh
-pip3 install --upgrade setuptools
+sudo python3.8 -m pip install --upgrade setuptools
 ```
 Instalar librerías de científicas de python
 
 ```sh
-pip3 instlal matplotlib
-pip3 install --user numpy scipy matplotlib ipython jupyter pandas sympy nose
+sudo python3.8 -m pip install numpy scipy matplotlib ipython jupyter pandas sympy nose
+```

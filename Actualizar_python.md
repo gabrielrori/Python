@@ -48,5 +48,5 @@ echo $PATH
 ## Actualizar pip
 Instalar pip de la versión de python instalada previamente
 ```sh
-python3.8 -m pip install --user --upgrade --force-reinstall pip
+python3.8 pip install --user --upgrade --force-reinstall pip
 ```

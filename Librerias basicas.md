@@ -33,7 +33,7 @@ export PATH="/gabrokcy/local/bin:$PATH"
 Actualizar pip
 
 ```sh
-pip3 install --upgrade pip
+python3.8 -m pip install --upgrade --force-reinstall pip
 ```
 ## Instalar librerías básicas
 

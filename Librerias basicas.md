@@ -19,6 +19,10 @@ Actualizar a Python 3.8
 ```sh
 sudo dnf install python38
 ```
+Seleccionar Python 3.8 como python3 predeterminado
+```sh
+sudo ln -fs /usr/bin/python3.8 /usr/bin/python3
+```
 
 Actualizar pip
 

@@ -1,4 +1,4 @@
-# Librerías básicas de python
+# Actualizar y configurar Python
 
 ## Comprobar la versión de python3 y pip3
 
@@ -23,6 +23,7 @@ Seleccionar Python 3.8 como python3 predeterminado
 ```sh
 sudo ln -fs /usr/bin/python3.8 /usr/bin/python3
 ```
+## Agregar carpetas de instalación al PATH
 Verificar carpetas en PATH
 ```sh
 echo $PATH
@@ -44,19 +45,8 @@ Verificar carpetas en PATH
 ```sh
 echo $PATH
 ```
-Actualizar pip
-
+## Actualizar pip
+Instalar de la versión de python instalada previamente
 ```sh
 python3.8 -m pip install --user --upgrade --force-reinstall pip
-```
-## Instalar librerías básicas
-
-Instalar y actualizar la librería de setuptools
-```sh
-sudo python3.8 -m pip install --user --upgrade setuptools
-```
-
-Instalar librerías de científicas de python3
-```sh
-sudo python3.8 -m pip install --user numpy scipy matplotlib ipython jupyter pandas sympy nose
 ```

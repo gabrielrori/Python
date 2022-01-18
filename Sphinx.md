@@ -6,15 +6,15 @@
 ### Instalación
 Instalar sphinx
 ```sh
-pip3 install -U sphinx
+sudo python3.8 -m pip install -U sphinx
 ```
 Instalar paquete para Markdown
 ```sh
-pip3 install --upgrade myst-parser
+sudo python3.8 -m pip install --upgrade myst-parser
 ```
 Instalar paquete para jupyter notebook
 ```sh
-pip3 install nbsphinx --upgrade --user
+sudo python3.8 -m pip install nbsphinx --upgrade --user
 ```
 ### Crear un documento
 ```sh

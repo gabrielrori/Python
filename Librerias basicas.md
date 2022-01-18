@@ -23,12 +23,26 @@ Seleccionar Python 3.8 como python3 predeterminado
 ```sh
 sudo ln -fs /usr/bin/python3.8 /usr/bin/python3
 ```
-Agregar carpeta de instalación al PATH de python
+Verificar carpetas en PATH
 ```sh
-export PYTHONPATH="${PYTHONPATH}:/usr/local/bin"
-export PATH=/usr/local/bin:$PATH
-export PATH="/usr/local/bin:$PATH"
-export PATH="/gabrokcy/local/bin:$PATH"
+echo $PATH
+```
+Agregar carpetas de instalación al PATH
+```sh
+PATH=$PATH:/usr/local/bin
+```
+```sh
+PATH=$PATH:/root/.local/bin
+```
+```sh
+export PATH
+```
+```sh
+source ~/.bash_profile
+```
+Verificar carpetas en PATH
+```sh
+echo $PATH
 ```
 Actualizar pip
 

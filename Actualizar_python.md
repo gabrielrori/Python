@@ -46,7 +46,7 @@ Verificar carpetas en PATH
 echo $PATH
 ```
 ## Actualizar pip
-Instalar de la versión de python instalada previamente
+Instalar pip de la versión de python instalada previamente
 ```sh
 python3.8 -m pip install --user --upgrade --force-reinstall pip
 ```

@@ -32,12 +32,13 @@ pip3 install --upgrade pip
 ## Instalar librerías básicas
 
 Instalar y actualizar la librería de setuptools
-
 ```sh
 sudo python3.8 -m pip install --upgrade setuptools
 ```
-Instalar librerías de científicas de python
-
+Agregar carpeta de instalación al PATH de python
+```sh
+export PYTHONPATH="${PYTHONPATH}:/usr/local/bin"
+Instalar librerías de científicas de python3
 ```sh
 sudo python3.8 -m pip install numpy scipy matplotlib ipython jupyter pandas sympy nose
 ```

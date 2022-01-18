@@ -47,16 +47,16 @@ echo $PATH
 Actualizar pip
 
 ```sh
-python3.8 -m pip install --upgrade --force-reinstall pip
+python3.8 -m pip install --user --upgrade --force-reinstall pip
 ```
 ## Instalar librerías básicas
 
 Instalar y actualizar la librería de setuptools
 ```sh
-sudo python3.8 -m pip install --upgrade setuptools
+sudo python3.8 -m pip install --user --upgrade setuptools
 ```
 
 Instalar librerías de científicas de python3
 ```sh
-sudo python3.8 -m pip install numpy scipy matplotlib ipython jupyter pandas sympy nose
+sudo python3.8 -m pip install --user numpy scipy matplotlib ipython jupyter pandas sympy nose
 ```

@@ -28,4 +28,5 @@ sudo pip3 install --upgrade -U setuptools
 Instalar librerías de científicas de python3
 ```sh
 sudo python3.8 -m pip install --user numpy scipy matplotlib ipython jupyter pandas sympy
+sudo pip3 install numpy scipy matplotlib ipython jupyter pandas sympy
 ```

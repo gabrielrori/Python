@@ -15,6 +15,10 @@ Actualizar los paquetes y volver a cargar el repositorio
 ```sh
 sudo dnf update -y 
 ```
+Actualizar el cache del repositorio de paquetes 
+```sh
+sudo dnf makecache
+```
 Actualizar a Python 3.8
 ```sh
 sudo dnf install python38

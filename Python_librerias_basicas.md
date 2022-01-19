@@ -18,6 +18,7 @@ sudo dnf install gcc python3-devel kernel-headers-$(uname -r)
 Instalar y actualizar la librería de setuptools
 ```sh
 sudo python3.8 -m pip install --user --upgrade -U setuptools
+sudo pip3 install --upgrade -U setuptools
 ```
 
 

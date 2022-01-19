@@ -31,11 +31,7 @@ echo $PATH
 Agregar carpetas de instalación al PATH
 ```sh
 PATH=$PATH:/usr/local/bin
-```
-```sh
 PATH=$PATH:/root/.local/bin
-```
-```sh
 export PATH
 ```
 ```sh

@@ -1,7 +1,4 @@
-﻿
-
-
-# Instalación de jax
+# Instalación de Jax
 
 ## Instalación
 
